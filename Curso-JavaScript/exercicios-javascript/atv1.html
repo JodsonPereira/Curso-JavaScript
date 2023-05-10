@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atv1.css">
+    <title> 1º-Atividade </title>
+</head>
+<body>
+<fieldset>
+    <h2 id="area">Bem vindo!!</h2><br>
+    <button onclick="entrar()"> Acessar </button><br>
+</fieldset>
+<fieldset>
+<label for="">Digite o primeiro número :  </label>
+    <input type="text" id="num1"><br><br>
+
+    <label for="">Digite o segundo número : </label>
+    <input type="text" id="num2"><br><br>
+    
+
+    <button  class="btnCalc" id="somar" onclick="calcular(this.id)"> Somar </button>
+    <button  class="btnCalc" id="subtrair" onclick="calcular(this.id)"> Subtrair </button>
+    <button  class="btnCalc" id="multiplicar" onclick="calcular(this.id)"> Multiplicar </button>
+    <button  class="btnCalc" id="dividir" onclick="calcular(this.id)"> Dividir </button>
+    <br><br>
+
+    <label for=""> Resultado do calculo é : </label>
+    <input type="text" id="resultado" value="resultado" disabled="disabled">
+</fieldset>
+
+    <script src="atv1.js"></script>
+</body>
+</html>
