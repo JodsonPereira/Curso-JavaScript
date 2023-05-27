@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercicioExtraComRadio.css">
+    <title> Atividade 9 </title>
+</head>
+
+<body>
+    <div id="paragrafoDiv">
+    </div>
+   <fieldset>
+        <label>Quantos inputs do tipo texto você deseja que sejam gerados ?</label>
+        <input type="text" id="num1" placeholder="Digite o numero desejado!"><br>
+        <input type="radio" name="check_input" id="texto" value="input" !checked>
+        <label>Criar Input </label><br>
+        <label>Quantos inputs radios você deseja que seja gerados ?</label>
+        <input type="text" id="num2" placeholder="Digite o numero desejado!"><br>
+        <input type="radio" name="check_input" id="radio" value="radio">
+        <label>Criar Radio </label><br>
+        <label>Quantos paragrafos você deseja que sejam gerados ?</label>
+        <input type="text" id="num3" placeholder="Digite o numero desejado!"><br>
+        <input type="radio" name="check_input" id="paragrafo" value="p">
+        <label>Criar Paragrafo </label><br>
+    </fieldset>
+    <input type="button" onclick="verificaElemento()" value="Criar Elementos">
+    <fieldset>
+        <div id="inputTag"></div>
+        <div id="radioTag"></div>
+        <div id="paragrafoTag"></div>
+    </fieldset>
+    
+
+    <script src="exercicioExtraComRadio.js"></script>
+</body>
+
+</html>
